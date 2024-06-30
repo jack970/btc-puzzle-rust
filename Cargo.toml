@@ -1,0 +1,18 @@
+[package]
+name = "btc-finder"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base58 = "0.2.0"
+hex = "0.4.3"
+num-bigint = "0.4.5"
+num-traits = "0.2.19"
+num_cpus = "1.16.0"
+rayon = "1.10.0"
+tokio = { version = "1", features = ["full"] }
+ripemd = "0.1.3"
+secp256k1 = "0.29.0"
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = "1.0.117"
+sha2 = "0.10.8"
